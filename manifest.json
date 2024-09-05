@@ -1,0 +1,7 @@
+{
+	"name": "Fuck you, *locks your doors*",
+	"version number": "1.0.0",
+	"website url": "",
+	"description": "Forces all doors to spawn locked. ",
+	"dependencies": ["bbepis-BepInExPack-5.4.2117"]
+}
