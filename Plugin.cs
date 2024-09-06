@@ -6,9 +6,9 @@ namespace FuckYouLocksYourDoors;
 
 [BepInPlugin(Plugin.GUID, Plugin.NAME, Plugin.VERSION)]
 public class Plugin : BaseUnityPlugin {
-	const string GUID = "nikemitosis.lethal_company.fylyd";
-	const string NAME = "Fuck you, *locks your doors*";
-	const string VERSION = "1.0.0";
+	public const string GUID = "nikemitosis.lethal_company.fylyd";
+	public const string NAME = "Fuck you, *locks your doors*";
+	public const string VERSION = "1.0.1";
 	
 	internal static new ManualLogSource Logger;
 	
@@ -18,7 +18,7 @@ public class Plugin : BaseUnityPlugin {
 		Logger = base.Logger;
 		harmony.PatchAll();
 		
-		Logger.LogInfo($"Retrieved the keys to lock your doors");
+		Logger.LogInfo("Retrieved the keys to lock your doors");
 	}
 }
 
