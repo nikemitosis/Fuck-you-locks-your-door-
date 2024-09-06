@@ -8,7 +8,7 @@ namespace FuckYouLocksYourDoors;
 public class Plugin : BaseUnityPlugin {
 	public const string GUID = "nikemitosis.lethal_company.fylyd";
 	public const string NAME = "Fuck you, *locks your doors*";
-	public const string VERSION = "1.0.1";
+	public const string VERSION = "1.0.2";
 	
 	internal static new ManualLogSource Logger;
 	
